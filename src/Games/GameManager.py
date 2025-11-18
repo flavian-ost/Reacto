@@ -1,5 +1,9 @@
-import Objects.Player as Player
+from TemplateGame import Template_Game
 
-players
+class Game_Manager:
+    games = []
 
-def set_players():
+    def create_games():
+        Game_1 = Template_Game()
+        Game_1.create(players)
+
