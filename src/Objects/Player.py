@@ -1,10 +1,13 @@
 class Player:
-    def __init__(self):
-        self.score = 0
+    id
+    score
+
+    def __init__(self, id):
+        self.id = id
         
-    def get_score(self):
+    def score(self, new_score = 0 ):
+        self.score += new_score
         return self.score
     
-    def set_score(self, new_score):
-        self.score = new_score
-        return self.score
+    def get_id():
+        return id
