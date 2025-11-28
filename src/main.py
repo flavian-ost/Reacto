@@ -1,18 +1,8 @@
-# from output import Output
-# from input import Input
-from machine import Timer
-from time import localtime
+from input import Input
 
-##### CONSTANTS #####
-FREQUENCY = int(1000/60)
+def main():
+    Input.start()
+    while True:
+        pass
 
-def main(timer):
-    # Input.get_input()
-    # Output.set_output()
-    print(localtime())
-
-timer = Timer(0)
-timer.init(mode= Timer.PERIODIC, period=FREQUENCY, callback=main)
-
-while True:
-    pass
+main()
