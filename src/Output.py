@@ -5,11 +5,11 @@ from modulino import ModulinoPixels, ModulinoBuzzer
 display = LCD(0x27, 16, 2, i2c=I2C(1))
 display.begin()
 
-class Output:
+class OutputManager:
     def set_output():
         print("setting output...")
     
     def display_message(message):
         display.print(message)
 
-output = Output()
+Output = OutputManager()

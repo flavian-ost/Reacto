@@ -1,6 +1,6 @@
-from Objects import Player
+from player import Player
 
-class Template_Game:
+class Game:
     name = "Template Game"
     players = []
 

@@ -1,7 +1,7 @@
 from modulino import ModulinoKnob, ModulinoMovement, ModulinoButtons, map_value_int
 from machine import Pin
 
-class Input:
+class InputManager:
     ##### DEVICES #####
     Button = Pin("D2", Pin.IN)
     Buttons = ModulinoButtons()
@@ -11,7 +11,7 @@ class Input:
     ##### SETUP #####
     Knob.range = (0, 30)
 
-    ##### VRIABLES #####
+    ##### VARIABLES #####
     button_side = False
     button_left = False
     button_center = False
@@ -44,4 +44,4 @@ class Input:
         self.gyro_tilt = self.Movement.gyro.y
         self.gyro_shake = self.Movement.gyro.z
 
-input = Input()
+Input = InputManager()
