@@ -1,9 +1,11 @@
 from io.devices import Buzzer, Display, Pixels, Ring
+from timer import Timer
+from menu import VerticalMenu, HorizontalMenu
 from time import sleep
 
 
 class OutputManager:
-    def __init__(self): 
+    def __init__(self):
         ##### CONSTANTS #####
         self.BUZZER_MELODIES = {
             "Dixie": [
@@ -34,12 +36,7 @@ class OutputManager:
             "White": (255, 255, 255),
         }
 
-        ##### SETUP #####
-        Display.begin()
-        Display.no_blink()
-        Display.cursor(False)
-        Display.display(True)
-
+    ##### METHODS #####
     def buzzer_play_melody(self, melody):
         for note_name, duration in melody:
             note = Buzzer.NOTES[note_name]
@@ -53,18 +50,8 @@ class OutputManager:
 
     def display_show_message(self, message, location=(0, 0)):
         Display.clear()
+        Display.set_cursor(location)
         Display.print(message)
-
-    def display_menu_horizontal_show(self, message, option_left, option_right):
-        Display.set_cursor(0, 0)
-        Display.print(message)
-        Display.set_cursor(0, 1)
-        Display.print(f">{option_left[:7]}")
-        Display.set_cursor(8, 1)
-        Display.print(f" {option_right[:7]}")
-
-    def display_menu_vertical_show(self, message, options):
-        pass
 
     def pixels_set_brightness(self, brightness):
         pass
@@ -77,6 +64,18 @@ class OutputManager:
 
     def ring_set_color(self, color):
         pass
+
+    def create_menu_horizontal(self, message, option_left, option_right):
+        Menu = HorizontalMenu(Display, message, option_left, option_right)
+        return Menu
+
+    def create_menu_vertical(self, message, options):
+        Menu = VerticalMenu(Display, message, options)
+        return Menu
+
+    def create_timer(self, message, time, on_timer_end):
+        timer = Timer(Display, message, time, on_timer_end)
+        return timer
 
 
 # singular instance for use in other classes

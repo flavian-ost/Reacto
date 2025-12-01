@@ -5,10 +5,9 @@ from machine import Timer
 class InputManager:
     def __init__(self): 
         ##### CONSTANTS #####
-        self.INTERVALL = int(1000 / 30)
+        self.FREQUENCY = 30
 
-        ##### SETUP #####
-        Knob.range = (0, 30)
+        ##### OBJECTS #####
         self.Timer = Timer(0)
 
         ##### VARIABLES #####
@@ -46,7 +45,7 @@ class InputManager:
 
     def start(self):
         self.Timer.init(
-            mode=Timer.PERIODIC, period=self.INTERVALL, callback=self.get_input
+            mode=Timer.PERIODIC, freq=self.FREQUENCY, callback=self.get_input
         )
 
 
