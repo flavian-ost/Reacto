@@ -17,15 +17,23 @@ fjdskflasf
 dksfjaldsf
 
 ## Software
+hjdskafj
 
 ## Bibliotheken
+nksdfkl
 
 
 # Wie man REACTO zusammenbaut
+sdfkaskdf
 
 ## Verkabelung
+hskfhkal
 
 ## Code hochladen
+hskaf
+
+# Feedback und Fragen
+haksdf
 
 
 
