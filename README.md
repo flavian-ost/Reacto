@@ -1,5 +1,4 @@
 # REACTO
-
 REACTO ist eine kompakte mobile Spielkonsole, mit der man allein oder im Multiplayer-Modus durch vielseitige Steuerungen Minispiele spielen kann – perfekt, um überall Spass zu haben und das Gehirn zu trainieren
 
 # Konzept
@@ -12,42 +11,48 @@ Das Ziel ist es ein altes Game oder ein neues neu zu konzipieren und zu digitali
 * Das gewünschte Game auswählen
 
 ### Die verschiedenen Games
-* Time Guess
-  sjfksafldsf
+* Time Guess:
 
-* Hide and Seek
-  skdfdsf
+* Hide and Seek: 
 
-* Speed it up
-  sdkfjlsdf
+* Speed it up: 
 
-* Hot Potato Mode
-  sdkfjlsdf
+* Hot Potato Mode:
 
 
 # Was du dafür benötigst
-fjdskflasf
+REACTO besteh aus drei verschiedenen Komponenten
 
 ## Hardware
-dksfjaldsf
+* Arduino Nano ESP32
+* Nano Grove Pad
+* ModulinoPixels
+* ModulinoBuzzer
+* ModulinoButtons
+* ModulinoKnob
+* ModulinoMovement
+* LCD 1602 Display
+* NeoPixel Ring
+* Batterie (550mAh 3.7V)
+* Button 
 
 ## Software
-hjdskafj
+Micro Python
 
-## Bibliotheken
-nksdfkl
+## Code Bibliotheken
+
 
 
 # Wie man REACTO zusammenbaut
 Für den Zusammenbau des Spiels benötigst du folgendes:
 * Case
-* 
+* Hardware
 
 ## Verkabelung
-hskfhkal
+Daisy Chaining für die Modulinos
 
 ## Gehäuse
-ksdfhk
+Das Gehäuse ist ein 3D Druck.
 
 ## Code hochladen
 hskaf
