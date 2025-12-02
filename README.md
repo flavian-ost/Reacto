@@ -56,14 +56,8 @@ REACTO besteht aus drei Hauptkomponenten
 * ???
 
 ## Code-Bibliotheken
-src/
-├── components/
-│   └── GameCanvas.tsx   #
-├── App.tsx              # 
-├── App.css              #
-└── main.tsx             #
-*(Hier können spezifische Libraries ergänzt werden.)*
 
+*(Hier können spezifische Libraries ergänzt werden.)*
 
 
 # 🛠️ Zusammenbau
