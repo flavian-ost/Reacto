@@ -16,6 +16,18 @@ fjdskflasf
 ## Hardware
 dksfjaldsf
 
+## Software
+
+## Bibliotheken
+
+
+# Wie man es zusammenbaut
+
+## Verkabelung
+
+## Code hochladen
+
+
 
 
 
