@@ -1,11 +1,8 @@
 # 🎮 REACTO
-REACTO ist eine portable Mini-Spielkonsole, mit der man allein oder im Multiplayer-Modus mehrere Reaktions- und Geschicklichkeitsspiele spielen kann.  
-Durch verschiedene Eingabemodule bietet REACTO überall schnellen Spielspass – und trainiert Reaktion und Konzentration.
-
+REACTO ist eine kompakte mobile Spielkonsole, mit der man allein oder im Multiplayer-Modus durch vielseitige Steuerungen Minispiele spielen kann – perfekt, um überall Spass zu haben und das Gehirn zu trainieren.
 
 
 # 🧩 Konzept
-
 Dieses Projekt entstand im Modul Physical Prototyping, umgesetzt in sieben Wochen.  
 Ziel war es, ein Spielkonzept neu zu denken, zu digitalisieren und als funktionierenden Prototypen umzusetzen.
 
@@ -22,10 +19,15 @@ Eine kompakte mobile Spielkonsole, die man immer dabeihaben kann.
 
 ## Verfügbare Spiele
 
-- **⏱️ Time Guess** – Schätze, wann eine bestimmte Zeitspanne abgelaufen ist  
-- **🔍 Hide and Seek** – Dein Gegner versteckt Reacto und  
-- **⚡ Speed it up** – Reagiere so schnell wie möglich  
-- **🔥 Hot Potato Mode** – Gib REACTO rechtzeitig weiter, bevor der Timer endet
+- ⏱️ Time Guess – Schätze, wann eine bestimmte Zeitspanne abgelaufen ist  
+- 🔍 Hide and Seek – Finde REACTO wieder! 
+- ⚡ Speed it up – Wie schnell kannst du REACTO drehen?
+- 🔥 Hot Potato Mode – Gib REACTO rechtzeitig weiter, bevor der Timer endet
+
+## Interaktionen
+- Push it
+- Twist it
+- 
 
 
 
