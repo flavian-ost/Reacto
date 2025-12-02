@@ -15,7 +15,6 @@ Eine kompakte mobile Spielkonsole, die man immer dabeihaben kann.
 
 
 # 🕹️ Wie man spielt
-
 1. REACTO über den **Button XY** einschalten  
 2. Anzahl der Spieler auswählen  
 3. Ein Spiel auswählen  
@@ -26,6 +25,7 @@ Eine kompakte mobile Spielkonsole, die man immer dabeihaben kann.
 - 🔍 Hide and Seek – Finde REACTO wieder! 
 - ⚡ Speed it up – Wie schnell kannst du REACTO drehen?
 - 🔥 Hot Potato Mode – Gib REACTO rechtzeitig weiter, bevor der Timer endet
+- 
 
 ## Interaktionen
 - Push it
@@ -35,6 +35,7 @@ Eine kompakte mobile Spielkonsole, die man immer dabeihaben kann.
 
 
 # 🧰 Benötigte Komponenten
+REACTO besteht aus drei Hauptkomponenten
 
 ## Hardware
 
@@ -51,11 +52,16 @@ Eine kompakte mobile Spielkonsole, die man immer dabeihaben kann.
 * Button  
 
 ## Software
-
 * MicroPython
+* ???
 
 ## Code-Bibliotheken
-
+src/
+├── components/
+│   └── GameCanvas.tsx   #
+├── App.tsx              # 
+├── App.css              #
+└── main.tsx             #
 *(Hier können spezifische Libraries ergänzt werden.)*
 
 
@@ -111,5 +117,5 @@ Das Gehäuse ist ein 3D-gedrucktes Case.
 ---
 
 # 📄 Lizenz
+Dieses Projekt steht unter der **MIT License**.  
 Du darfst den Code frei verwenden, anpassen, erweitern und verbreiten – solange die ursprüngliche Lizenz erhalten bleibt.
-
