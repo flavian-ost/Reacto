@@ -30,6 +30,9 @@ Für den Zusammenbau des Spiels benötigst du folgendes:
 ## Verkabelung
 hskfhkal
 
+## Gehäuse
+ksdfhk
+
 ## Code hochladen
 hskaf
 
