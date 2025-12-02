@@ -25,7 +25,8 @@ nksdfkl
 
 # Wie man REACTO zusammenbaut
 Für den Zusammenbau des Spiels benötigst du folgendes:
-
+* Case
+* 
 
 ## Verkabelung
 hskfhkal
