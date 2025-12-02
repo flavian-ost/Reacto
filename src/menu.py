@@ -38,21 +38,21 @@ class HorizontalMenu:
 
     def show_left_selected(self):
         self.Display.clear()
-        self.Display.set_cursor(0, 0)
-        self.Display.print(self.message)
-        self.Display.set_cursor(0, 1)
-        self.Display.print(f">{self.option_left}")
-        self.Display.set_cursor(8, 1)
-        self.Display.print(f" {self.option_right}")
+        self.Display.move(0, 0)
+        self.Display.write(self.message)
+        self.Display.move(0, 1)
+        self.Display.write(f">{self.option_left}")
+        self.Display.move(8, 1)
+        self.Display.write(f" {self.option_right}")
 
     def show_right_selected(self):
         self.Display.clear()
-        self.Display.set_cursor(0, 0)
-        self.Display.print(self.message)
-        self.Display.set_cursor(0, 1)
-        self.Display.print(f" {self.option_left}")
-        self.Display.set_cursor(8, 1)
-        self.Display.print(f">{self.option_right}")
+        self.Display.move(0, 0)
+        self.Display.write(self.message)
+        self.Display.move(0, 1)
+        self.Display.write(f" {self.option_left}")
+        self.Display.move(8, 1)
+        self.Display.write(f">{self.option_right}")
 
     def show(self):
         self.show_left_selected

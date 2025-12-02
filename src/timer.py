@@ -9,15 +9,19 @@ class Timer:
         self.callback = callback
         self.Timer = Timer(1)
     
-    def on_timer_end(self, timer):
+    def on_timer_end(self):
         self.callback
+    
+    def interrupt(self):
+        self.Timer.deinit()
+        return self.time
 
     def show(self):
         self.Display.clear()
-        self.Display.set_cursor(0, 0)
-        self.Display.print(self.message)
-        self.Display.set_cursor(0, 0)
-        self.Display.print(f"{self.time}s")
+        self.Display.move(0, 0)
+        self.Display.write(self.message)
+        self.Display.move(0, 1)
+        self.Display.write(f"{self.time}s")
 
     def update(self, timer):
         self.time -= 1

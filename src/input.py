@@ -1,4 +1,4 @@
-from io.devices import Button, Buttons, Knob, Movement
+from devices import Button, Buttons, Knob, Movement
 from machine import Timer
 
 
