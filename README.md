@@ -5,7 +5,7 @@ REACTO ist eine kompakte mobile Spielkonsole, mit der man allein oder im Multipl
 
 
 
-# 🧩 Konzept
+## 🧩 Konzept
 Dieses Projekt entstand im Modul Physical Prototyping, umgesetzt in sieben Wochen.  
 Ziel war es, ein Spielkonzept neu zu denken, zu digitalisieren und als funktionierenden Prototypen umzusetzen.
 
@@ -14,12 +14,12 @@ Eine kompakte mobile Spielkonsole, die man immer dabeihaben kann.
 
 
 
-# 🕹️ Wie man spielt
+## 🕹️ Wie man spielt
 1. REACTO über den **Button XY** einschalten  
 2. Anzahl der Spieler auswählen  
 3. Ein Spiel auswählen  
 
-## Verfügbare Spiele
+### Verfügbare Spiele
 
 - ⏱️ Time Guess – Schätze, wann eine bestimmte Zeitspanne abgelaufen ist  
 - 🔍 Hide and Seek – Finde REACTO wieder! 
@@ -27,17 +27,17 @@ Eine kompakte mobile Spielkonsole, die man immer dabeihaben kann.
 - 🔥 Hot Potato Mode – Gib REACTO rechtzeitig weiter, bevor der Timer endet
 - 
 
-## Interaktionen
+### Interaktionen
 - Push it
 - Twist it
 - 
 
 
 
-# 🧰 Benötigte Komponenten
+## 🧰 Benötigte Komponenten
 REACTO besteht aus drei Hauptkomponenten
 
-## Hardware
+### Hardware
 
 * Arduino Nano ESP32  
 * Nano Grove Pad  
@@ -51,28 +51,28 @@ REACTO besteht aus drei Hauptkomponenten
 * Batterie (550 mAh, 3.7 V)  
 * Button  
 
-## Software
+### Software
 * MicroPython
 * ???
 
-## Code-Bibliotheken
+### Code-Bibliotheken
 
 *(Hier können spezifische Libraries ergänzt werden.)*
 
 
-# 🛠️ Zusammenbau
+## 🛠️ Zusammenbau
 
-## Verkabelung
+### Verkabelung
 
 Die Modulino-Module werden über Daisy-Chaining miteinander verbunden.  
 *(Optional kann hier ein Wiring-Diagramm ergänzt werden.)*
 
-## Gehäuse
+### Gehäuse
 
 Das Gehäuse ist ein 3D-gedrucktes Case.  
 *(STL-Files können hier verlinkt werden.)*
 
-## Code hochladen
+### Code hochladen
 
 1. MicroPython auf dem ESP32 installieren  
 2. Projekt in Thonny oder einer MicroPython-kompatiblen IDE öffnen  
@@ -81,7 +81,7 @@ Das Gehäuse ist ein 3D-gedrucktes Case.
 
 
 
-# ❓Troubleshooting / FAQ
+## ❓Troubleshooting / FAQ
 
 ### REACTO startet nicht  
 - Batterie geladen?  
@@ -110,6 +110,6 @@ Das Gehäuse ist ein 3D-gedrucktes Case.
 
 ---
 
-# 📄 Lizenz
+## 📄 Lizenz
 Dieses Projekt steht unter der **MIT License**.  
 Du darfst den Code frei verwenden, anpassen, erweitern und verbreiten – solange die ursprüngliche Lizenz erhalten bleibt.
