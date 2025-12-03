@@ -3,21 +3,18 @@ REACTO ist eine kompakte mobile Spielkonsole, mit der man allein oder im Multipl
 
 <img width="430" height="289" alt="Reacto" src="https://github.com/user-attachments/assets/a9a0d931-f5b3-475a-a81e-e3a1c7fe9652" />
 
-
-
 ## 🧩 Konzept
-Dieses Projekt entstand im Modul Physical Prototyping, umgesetzt in sieben Wochen.  
-Ziel war es, ein Spielkonzept neu zu denken, zu digitalisieren und als funktionierenden Prototypen umzusetzen.
-
-Unser Ansatz:  
-Eine kompakte mobile Spielkonsole, die man immer dabeihaben kann.
-
+Dieses Projekt entstand im Rahmen des Moduls Physical Prototyping und wurde innerhalb von sieben Wochen umgesetzt.
+Als zentrale Leitfrage diente uns folgender One Sentence Brief:
+Erfinde ein Speil oder gestalte eines neu, indem du seine bestehende Interaktivität in Frage stellst oder eine neue Interaktivität entwickelst, die über den Bildschirm hinausgeht.
+Auf dieser Grundlage sollte anschliessend ein physischer Prototyp entwickelt werden.
 
 
 ## 🕹️ Wie man spielt
 1. REACTO über den **Button XY** einschalten  
 2. Anzahl der Spieler auswählen  
-3. Ein Spiel auswählen  
+3. Ein Spiel auswählen
+4. Mit dem Spiel beginnen
 
 ### Verfügbare Spiele
 
@@ -25,20 +22,19 @@ Eine kompakte mobile Spielkonsole, die man immer dabeihaben kann.
 - 🔍 Hide and Seek – Finde REACTO wieder! 
 - ⚡ Speed it up – Wie schnell kannst du REACTO drehen?
 - 🔥 Hot Potato Mode – Gib REACTO rechtzeitig weiter, bevor der Timer endet
-- 
+-  Pattern Match - Random LED-Muster anzeigen, korrektes Nachdrücken erkennen
+-  Action Commands - Voice Commands, Interaktion erkennen z.B. "Twist it"
 
 ### Interaktionen
 - Push it
 - Twist it
-- 
-
+- Move it
 
 
 ## 🧰 Benötigte Komponenten
 REACTO besteht aus drei Hauptkomponenten
 
 ### Hardware
-
 * Arduino Nano ESP32  
 * Nano Grove Pad  
 * ModulinoPixels  
@@ -56,7 +52,6 @@ REACTO besteht aus drei Hauptkomponenten
 * ???
 
 ### Code-Bibliotheken
-
 *(Hier können spezifische Libraries ergänzt werden.)*
 
 
@@ -69,15 +64,8 @@ Die Modulino-Module werden über Daisy-Chaining miteinander verbunden.
 
 ### Gehäuse
 
-Das Gehäuse ist ein 3D-gedrucktes Case.  
+Das Gehäuse ist ein 3D-gedrucktes Case. Wir haben uns für einene 3D-Druck entschieden, da dieser für uns am praktischsten ist.. 
 *(STL-Files können hier verlinkt werden.)*
-
-### Code hochladen
-
-1. MicroPython auf dem ESP32 installieren  
-2. Projekt in Thonny oder einer MicroPython-kompatiblen IDE öffnen  
-3. Code auf den Controller übertragen  
-4. REACTO neu starten
 
 
 
@@ -91,7 +79,6 @@ Das Gehäuse ist ein 3D-gedrucktes Case.
 ### Display zeigt nichts an  
 - I2C-Adresse korrekt?  
 - Display richtig am Grove Pad angeschlossen?  
-- 5V- und GND-Verbindungen prüfen
 
 ### NeoPixel Ring leuchtet nicht  
 - Datenverbindung (DIN/DOUT) prüfen  
