@@ -54,8 +54,8 @@ Additionally, building our own console gave us the opportunity to merge hardware
 
 
 
-## 🧰 Benötigte Components
-REACTO besteht aus drei Hauptkomponenten
+## 🧰 Required Components
+REACTO consists of three main component groups.
 
 ### Hardware
 * Arduino Nano ESP32  
@@ -75,9 +75,9 @@ REACTO besteht aus drei Hauptkomponenten
 * ???
 
 ### Code-Libraries
-*(Hier können spezifische Libraries ergänzt werden.)*
+(Specific libraries can be added here.)
 
-#### Aufbau
+#### Code structure
 Main.py
 Games.py
 ....????
