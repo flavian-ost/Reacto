@@ -5,9 +5,19 @@ REACTO ist eine kompakte mobile Spielkonsole, mit der man allein oder im Multipl
 
 ## 🧩 Konzept
 Dieses Projekt entstand im Rahmen des Moduls Physical Prototyping und wurde innerhalb von sieben Wochen umgesetzt.
+
 Als zentrale Leitfrage diente uns folgender One Sentence Brief:
-Erfinde ein Speil oder gestalte eines neu, indem du seine bestehende Interaktivität in Frage stellst oder eine neue Interaktivität entwickelst, die über den Bildschirm hinausgeht.
-Auf dieser Grundlage sollte anschliessend ein physischer Prototyp entwickelt werden.
+Erfinde ein Spiel oder gestalte eines neu, indem du seine bestehende Interaktivität in Frage stellst oder eine neue Interaktivität entwickelst, die über den Bildschirm hinausgeht.
+
+**Konzept**
+Im Mittelpunkt unseres Projekts stand die Frage, wie sich klassische digitale Spielerfahrungen in ein physisches, greifbares Format übertragen lassen. Durch die Kombination mehrerer Mini-Games wollten wir ein System schaffen, das schnelle Spielrunden ermöglicht und dabei unterschiedliche Formen von Interaktivität erfahrbar macht. Die Konsole sollte nicht nur als digitales Gerät funktionieren, sondern als physischer Gegenstand, der die Spieler*innen aktiv einbindet.
+
+**Zielsetzung**
+Ziel unseres Projekts war es, ein vielseitiges Spielerlebnis zu schaffen, das durch physische Interaktionen geprägt ist und bewusst über die klassische Bildschirmsteuerung hinausgeht. Mit REACTO wollten wir eine Spielkonsole entwickeln, die unterschiedliche Formen von Input — wie Drücken, Drehen und Bewegen — nutzt und um weitere sensorbasierte Interaktionen ergänzt werden kann. Dadurch sollte eine intuitive, haptische und aktivierende Spielerfahrung entstehen, die sowohl motorische als auch kognitive Fähigkeiten anspricht.
+Ein weiterer zentraler Aspekt war der soziale Charakter des Spielens: Durch kurze, kompetitive Mini-Games sollte REACTO spontane Duelle ermöglichen, bei denen Reaktionsfähigkeit, Timing, Geschicklichkeit und Kreativität gefragt sind. Die Konsole sollte robust, leicht verständlich und flexibel genug sein, um verschiedenste Interaktionskonzepte zu unterstützen und zukünftige Spielmodi problemlos erweitern zu können.
+
+**Motivation**
+Unsere Motivation lag darin, das gewohnte „Screen-Only“-Spielerlebnis zu erweitern. Wir wollten untersuchen, wie analoge Elemente und körperliche Interaktion das Spielgeschehen beeinflussen und welche neuen Dynamiken entstehen, wenn mehrere Personen gleichzeitig an einem physischen Objekt spielen. Die Entwicklung einer eigenen Spielkonsole bot uns die Möglichkeit, Hardware und Software eng miteinander zu verzahnen und so ein ganzheitliches, experimentelles Spielerlebnis zu gestalten.
 
 
 ## 🕹️ Wie man spielt
@@ -18,17 +28,19 @@ Auf dieser Grundlage sollte anschliessend ein physischer Prototyp entwickelt wer
 
 ### Verfügbare Spiele
 
-- ⏱️ Time Guess – Schätze, wann eine bestimmte Zeitspanne abgelaufen ist  
+- ⏱️ Time Guess – Schätze, wann eine bestimmte Zeitspanne abgelaufen ist.
 - 🔍 Hide and Seek – Finde REACTO wieder! 
 - ⚡ Speed it up – Wie schnell kannst du REACTO drehen?
-- 🔥 Hot Potato Mode – Gib REACTO rechtzeitig weiter, bevor der Timer endet
--  Pattern Match - Random LED-Muster anzeigen, korrektes Nachdrücken erkennen
--  Action Commands - Voice Commands, Interaktion erkennen z.B. "Twist it"
+- 🔥 Hot Potato Mode – Gib REACTO rechtzeitig weiter, bevor der Timer endet.
+- 🔶 Pattern Match – Merke dir zufällige LED-Muster und drücke sie anschliessend korrekt nach.
+- 🎤 Action Commands – Reagiere auf Kommandos auf dem Display wie „Twist it!“ oder „Shake it!“.
 
 ### Interaktionen
 - Push it
 - Twist it
 - Move it
+- Pass it
+- Find it
 
 
 ## 🧰 Benötigte Komponenten
