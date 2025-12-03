@@ -41,9 +41,13 @@ Die Entwicklung einer eigenen Konsole bot uns ausserdem die Möglichkeit, Hard- 
 
 ### Interaktionen
 - 👉 Push it
+  GIF ???
 - 🔄 Twist it
+  GIF ???
 - 🤾 Move it
+  GIF ???
 - 🤝 Pass it
+  GIF ???
 - 🔍 Find it
 
 
