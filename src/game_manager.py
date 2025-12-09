@@ -1,9 +1,7 @@
-from game import Game
+from games import *
 
-class GameMManager:
-    games = []
+class GameManager:
+    def __init__(self):
+        pass
 
-    def create_games():
-        Game_1 = Game()
-        Game_1.create(players)
-
+Game = GameManager()

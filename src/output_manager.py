@@ -1,6 +1,5 @@
-from devices import Buzzer, Display, Pixels, Ring
-from timer import Timer
-from menu import VerticalMenu, HorizontalMenu
+from device_manager import Device
+from screens import VerticalMenu, HorizontalMenu
 from time import sleep
 
 
@@ -23,7 +22,7 @@ class OutputManager:
                 ("E5", 200),
             ]
         }
-        self.BUZZER_NOTES = Buzzer.NOTES
+        self.BUZZER_NOTES = Device.Buzzer.NOTES
         self.DISPLAY_ANIMATIONS = {
             "None": 0,
             "Scroll": 1,
@@ -39,35 +38,19 @@ class OutputManager:
     ##### METHODS #####
     def buzzer_play_melody(self, melody):
         for note_name, duration in melody:
-            note = Buzzer.NOTES[note_name]
-            Buzzer.tone(note, duration, blocking=True)
+            note = Device.Buzzer.NOTES[note_name]
+            Device.Buzzer.tone(note, duration, blocking=True)
             sleep(0.01)
-        Buzzer.no_tone()
+        Device.Buzzer.no_tone()
 
     def buzzer_play_tone(self, note, duration):
-        Buzzer.tone(note, duration, blocking=True)
-        Buzzer.no_tone()
-
-    def display_set_color(r, g, b):
-        Display.color(r, g, b)
+        Device.Buzzer.tone(note, duration, blocking=True)
+        Device.Buzzer.no_tone()
 
     def display_show_message(self, message, location=(0, 0)):
-        Display.clear()
-        Display.move(location)
-        Display.print(message)
-
-    def create_menu_horizontal(self, message, option_left, option_right):
-        Menu = HorizontalMenu(Display, message, option_left, option_right)
-        return Menu
-
-    def create_menu_vertical(self, message, options):
-        Menu = VerticalMenu(Display, message, options)
-        return Menu
-
-    def create_timer(self, message, time, on_timer_end):
-        timer = Timer(Display, message, time, on_timer_end)
-        return timer
+        Device.Display.set_cursor(*location)
+        Device.Display.print(message)
 
 
-# singular instance for use in other classes
+# unique instance for use in other classes
 Output = OutputManager()
