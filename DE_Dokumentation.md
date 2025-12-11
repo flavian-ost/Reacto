@@ -55,15 +55,11 @@ REACTO besteht aus drei Hauptkomponenten
 ### Hardware
 * Arduino Nano ESP32  
 * Nano Grove Pad  
-* ModulinoPixels  
 * ModulinoBuzzer  
-* ModulinoButtons  
 * ModulinoKnob  
 * ModulinoMovement  
 * LCD 1602 Display  
-* NeoPixel Ring  
-* Batterie (550 mAh, 3.7 V)  
-* Button  
+* Batterie (550 mAh, 3.7 V)   
 
 ### Software
 * MicroPython
