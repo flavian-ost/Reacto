@@ -22,7 +22,7 @@ Darüber hinaus reizte uns der Gedanke, ein Gerät zu entwickeln, das nicht nur 
 Die Entwicklung einer eigenen Konsole bot uns ausserdem die Möglichkeit, Hard- und Software kreativ miteinander zu verbinden und im Sinne eines praktischen Prototypings experimentell auszutesten, wie verschiedene Interaktionen technisch erfasst und spielerisch sinnvoll umgesetzt werden können.
 
 ## 🕹️ Wie man spielt
-1. REACTO über den **Button XY** einschalten  
+1. REACTO über den seitlichen Button einschalten  
 2. Anzahl der Spieler auswählen  
 3. Ein Spiel auswählen
 4. Mit dem Spiel beginnen
@@ -38,13 +38,13 @@ Die Entwicklung einer eigenen Konsole bot uns ausserdem die Möglichkeit, Hard- 
 
 ### Interaktionen
 - 👉 Push it
-  GIF ???
+
 - 🔄 Twist it
-  GIF ???
+
 - 🤾 Move it
-  GIF ???
+
 - 🤝 Pass it
-  GIF ???
+
 - 🔍 Find it
 
 
