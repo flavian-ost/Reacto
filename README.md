@@ -2,7 +2,10 @@
 [German README](README_DE.md)  
 REACTO is a compact mobile gaming console that enables players to enjoy a variety of mini-games either solo or in multiplayer mode. Its diverse interaction methods make it ideal for quick entertainment anywhere while simultaneously training cognitive and motor skills.
 
-<img width="430" height="289" alt="Reacto" src="https://github.com/user-attachments/assets/a9a0d931-f5b3-475a-a81e-e3a1c7fe9652" />
+
+https://github.com/user-attachments/assets/2848db3a-7d19-459d-bda5-90f23dfa8c8d
+
+
 
 ## 🧩 Concept
 This project was developed as part of the Physical Prototyping module and completed over the course of seven weeks.
