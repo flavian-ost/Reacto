@@ -51,7 +51,7 @@ class InputManager:
 
     def update(self):
         # update states
-        Device.Buttons.update()
+        # Device.Buttons.update()
         Device.Knob.update()
 
         # assign values
@@ -68,7 +68,7 @@ class InputManager:
         self.gyro_tilt = Device.Movement.gyro.y
         self.knob_rotation = Device.Knob.value
 
-    def wait_for_continue():
+    def wait_for_continue(self):
         while True:
             Device.Knob.update()
             if Device.Knob.pressed:
