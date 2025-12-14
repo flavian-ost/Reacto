@@ -27,29 +27,30 @@ Die Entwicklung einer eigenen Konsole bot uns ausserdem die Möglichkeit, Hard- 
 
 ## 🕹️ Wie man spielt
 1. REACTO über den seitlichen Button einschalten  
-2. Anzahl der Spieler auswählen  
-3. Ein Spiel auswählen
-4. Mit dem Spiel beginnen
+2. Ein Spiel auswählen
+3. Mit dem Spiel beginnen
 
 ### Verfügbare Spiele
 
 - ⏱️ Time Guess – Schätze, wann eine bestimmte Zeitspanne abgelaufen ist.
 - 🔍 Hide and Seek – Finde REACTO wieder! 
 - ⚡ Speed it up – Wie schnell kannst du REACTO drehen?
-- 🔥 Hot Potato Mode – Gib REACTO rechtzeitig weiter, bevor der Timer endet.
-- 🔶 Pattern Match – Merke dir zufällige LED-Muster und drücke sie anschliessend korrekt nach.
-- 🎤 Action Commands – Reagiere auf Kommandos auf dem Display wie „Twist it!“ oder „Shake it!“.
+
 
 ### Interaktionen
 - 👉 Push it
+![push](https://github.com/user-attachments/assets/9f9740e3-ff96-40ce-8a4f-7050b26d599d)
+
 
 - 🔄 Twist it
+![twist](https://github.com/user-attachments/assets/bf858d3e-8700-4deb-a8d5-5248368c29e2)
 
-- 🤾 Move it
+  
 
-- 🤝 Pass it
+- 🤾 Shake it
+![shake](https://github.com/user-attachments/assets/e0cc4f36-c9af-413a-88cc-37d6d2a1ef7e)
 
-- 🔍 Find it
+
 
 
 
