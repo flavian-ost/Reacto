@@ -50,7 +50,6 @@ Die Entwicklung einer eigenen Konsole bot uns ausserdem die Möglichkeit, Hard- 
 
 
 ## 🧰 Benötigte Komponenten
-REACTO besteht aus drei Hauptkomponenten
 
 ### Hardware
 * Arduino Nano ESP32  
@@ -59,13 +58,14 @@ REACTO besteht aus drei Hauptkomponenten
 * ModulinoKnob  
 * ModulinoMovement  
 * LCD 1602 Display  
-* Batterie (550 mAh, 3.7 V)   
+* Powerbank
 
 ### Software
 * MicroPython
 
 ### Code-Bibliotheken
-*(Hier können spezifische Libraries ergänzt werden.)*
+- [arduino-modulino-mpy](https://github.com/arduino/arduino-modulino-mpy)
+- [micropython-i2c-lcd](https://github.com/brainelectronics/micropython-i2c-lcd/)
 
 #### Aufbau
 <img width="921" height="461" alt="image" src="https://github.com/user-attachments/assets/b7103f5a-0551-4d7b-a830-a01696e64cdf" />
