@@ -41,18 +41,17 @@ Additionally, building our own console gave us the opportunity to merge hardware
 - 🔥 Hot Potato Mode – Pass REACTO before the timer expires.
 - 🔶 Pattern Match – Memorize random LED patterns and reproduce them accurately.
 - 🎤 Action Commands – React to on-screen commands such as “Twist it!” or “Shake it!”.
-  ???
 
 ### Interactions
 - 👉 Push it
+![push](https://github.com/user-attachments/assets/7e04634c-4b55-46cd-8d59-09a958062b90)
 
 - 🔄 Twist it
+![twist](https://github.com/user-attachments/assets/97e8cb18-076e-4bcb-8303-c633e29573d7)
 
-- 🤾 Move it
+- 🤾 Shake it
+![shake](https://github.com/user-attachments/assets/5e0e89ad-d2aa-4bd7-a198-ce356a6cd49a)
 
-- 🤝 Pass it
-
-- 🔍 Find it
 
 
 
