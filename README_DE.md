@@ -39,15 +39,18 @@ Die Entwicklung einer eigenen Konsole bot uns ausserdem die Möglichkeit, Hard- 
 
 ### Interaktionen
 - 👉 Push it
+  
 ![push](https://github.com/user-attachments/assets/9f9740e3-ff96-40ce-8a4f-7050b26d599d)
 
 
 - 🔄 Twist it
+  
 ![twist](https://github.com/user-attachments/assets/bf858d3e-8700-4deb-a8d5-5248368c29e2)
 
   
 
 - 🤾 Shake it
+  
 ![shake](https://github.com/user-attachments/assets/e0cc4f36-c9af-413a-88cc-37d6d2a1ef7e)
 
 
