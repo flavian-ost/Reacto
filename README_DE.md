@@ -32,12 +32,9 @@ Die Entwicklung einer eigenen Konsole bot uns ausserdem die Möglichkeit, Hard- 
 - ⏱️ Time Guess – Schätze, wann eine bestimmte Zeitspanne abgelaufen ist.
 - 🔍 Hide and Seek – Finde REACTO wieder! 
 - ⚡ Speed it up – Wie schnell kannst du REACTO drehen?
-- 
-  ???
 - 🔥 Hot Potato Mode – Gib REACTO rechtzeitig weiter, bevor der Timer endet.
 - 🔶 Pattern Match – Merke dir zufällige LED-Muster und drücke sie anschliessend korrekt nach.
 - 🎤 Action Commands – Reagiere auf Kommandos auf dem Display wie „Twist it!“ oder „Shake it!“.
-  ???
 
 ### Interaktionen
 - 👉 Push it
@@ -58,15 +55,11 @@ REACTO besteht aus drei Hauptkomponenten
 ### Hardware
 * Arduino Nano ESP32  
 * Nano Grove Pad  
-* ModulinoPixels  
 * ModulinoBuzzer  
-* ModulinoButtons  
 * ModulinoKnob  
 * ModulinoMovement  
 * LCD 1602 Display  
-* NeoPixel Ring  
-* Batterie (550 mAh, 3.7 V)  
-* Button  
+* Batterie (550 mAh, 3.7 V)   
 
 ### Software
 * MicroPython
@@ -75,9 +68,8 @@ REACTO besteht aus drei Hauptkomponenten
 *(Hier können spezifische Libraries ergänzt werden.)*
 
 #### Aufbau
-Main Py
-Game Py
-....????
+<img width="921" height="461" alt="image" src="https://github.com/user-attachments/assets/b7103f5a-0551-4d7b-a830-a01696e64cdf" />
+
 
 
 
@@ -86,12 +78,17 @@ Game Py
 ### Verkabelung
 
 Die Modulino-Module werden über Daisy-Chaining miteinander verbunden.  
-*(Optional kann hier ein Wiring-Diagramm ergänzt werden.)*
+<img width="1071" height="328" alt="image" src="https://github.com/user-attachments/assets/967cc28f-8a67-4829-bc6c-2cf2bcff96b2" />
+
 
 ### Gehäuse
 
-Das Gehäuse ist ein 3D-gedrucktes Case. Wir haben uns für einene 3D-Druck entschieden, da dieser für uns am praktischsten ist.. 
-*(STL-Files können hier verlinkt werden.)*
+Das Gehäuse ist ein 3D-gedrucktes Case. Wir haben uns für einene 3D-Druck entschieden, da dieser für uns am praktischsten ist. 
+<img width="1031" height="627" alt="image" src="https://github.com/user-attachments/assets/8ef0601b-9db7-4b22-a9bb-134dbf643c84" />
+<img width="856" height="897" alt="image" src="https://github.com/user-attachments/assets/d4561c5b-d1ef-4acc-84fb-cef0c0b59ac2" />
+<img width="1336" height="1124" alt="image" src="https://github.com/user-attachments/assets/cace1330-773a-44af-84e6-826c44a515e0" />
+
+
 
 
 
