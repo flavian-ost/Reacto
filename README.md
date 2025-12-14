@@ -24,7 +24,7 @@ We were particularly intrigued by the idea of developing a device that functions
 Additionally, building our own console gave us the opportunity to merge hardware and software in a creative and experimental way, allowing us to investigate how different interactions can be captured technologically and transformed into meaningful gameplay.
 
 ## 🕹️ How to play
-1. Turn on REACTO using Button XY
+1. Turn on REACTO using the side button
 2. Select the number of players 
 3. Choose a game
 4. Start playing
@@ -35,8 +35,6 @@ Additionally, building our own console gave us the opportunity to merge hardware
 - ⏱️ Time Guess – Estimate when a given time interval has elapsed.
 - 🔍 Hide and Seek – Find REACTO!
 - ⚡ Speed it up – Spin REACTO as fast as possible.
-- 
-  ???
 - 🔥 Hot Potato Mode – Pass REACTO before the timer expires.
 - 🔶 Pattern Match – Memorize random LED patterns and reproduce them accurately.
 - 🎤 Action Commands – React to on-screen commands such as “Twist it!” or “Shake it!”.
@@ -44,13 +42,13 @@ Additionally, building our own console gave us the opportunity to merge hardware
 
 ### Interactions
 - 👉 Push it
-  GIF ???
+
 - 🔄 Twist it
-  GIF ???
+
 - 🤾 Move it
-  GIF ???
+
 - 🤝 Pass it
-  GIF ???
+
 - 🔍 Find it
 
 
@@ -93,6 +91,8 @@ The housing is a 3D-printed enclosure. We opted for 3D printing as it provided t
 
 
 
+## Video
+https://ostch-my.sharepoint.com/:f:/r/personal/cristina_hagmann_ost_ch/Documents/03_Informatikseminar/Semester%201/Gruppenprojekt/Projektvideo?csf=1&web=1&e=Dj1fnU
 
 ## ❓Troubleshooting / FAQ
 
