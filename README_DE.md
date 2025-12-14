@@ -94,11 +94,8 @@ Das Gehäuse ist ein 3D-gedrucktes Case. Wir haben uns für einene 3D-Druck ents
 
 
 
-https://github.com/user-attachments/assets/c0b34cae-3517-484d-9f4e-32188f66cc53
-
-
 ## Video
-
+https://ostch-my.sharepoint.com/:f:/r/personal/cristina_hagmann_ost_ch/Documents/03_Informatikseminar/Semester%201/Gruppenprojekt/Projektvideo?csf=1&web=1&e=Dj1fnU
 
 
 
