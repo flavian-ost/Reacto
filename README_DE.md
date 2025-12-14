@@ -92,26 +92,6 @@ Das Gehäuse ist ein 3D-gedrucktes Case. Wir haben uns für einene 3D-Druck ents
 ## Video
 https://ostch-my.sharepoint.com/:f:/r/personal/cristina_hagmann_ost_ch/Documents/03_Informatikseminar/Semester%201/Gruppenprojekt/Projektvideo?csf=1&web=1&e=Dj1fnU
 
-## ❓Troubleshooting / FAQ
-
-### REACTO startet nicht  
-- Batterie geladen?  
-- Verbindung zwischen ESP32 und Power-Modul prüfen  
-- Button-Anschluss kontrollieren
-
-### Display zeigt nichts an  
-- I2C-Adresse korrekt?  
-- Display richtig am Grove Pad angeschlossen?  
-
-### Ein Modulino wird nicht erkannt  
-- Daisy-Chain richtig gesteckt?  
-- Richtiger Port im Code?  
-- Modul einzeln testen
-
-### Code wird nicht übertragen  
-- MicroPython wirklich installiert?  
-- Richtigen COM-Port/Device in der IDE gewählt?  
-- Reset während des Uploads kann helfen
 
 
 ## 📄 Lizenz
