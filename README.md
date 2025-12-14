@@ -1,4 +1,5 @@
 # 🎮 REACTO
+[German README](README_DE.md)  
 REACTO is a compact mobile gaming console that enables players to enjoy a variety of mini-games either solo or in multiplayer mode. Its diverse interaction methods make it ideal for quick entertainment anywhere while simultaneously training cognitive and motor skills.
 
 <img width="430" height="289" alt="Reacto" src="https://github.com/user-attachments/assets/a9a0d931-f5b3-475a-a81e-e3a1c7fe9652" />
@@ -60,27 +61,21 @@ REACTO consists of three main component groups.
 ### Hardware
 * Arduino Nano ESP32  
 * Nano Grove Pad  
-* ModulinoPixels  
 * ModulinoBuzzer  
-* ModulinoButtons  
 * ModulinoKnob  
 * ModulinoMovement  
 * LCD 1602 Display  
-* NeoPixel Ring  
-* Batterie (550 mAh, 3.7 V)  
-* Button  
+* Powerbank 
 
 ### Software
 * MicroPython
-* ???
 
 ### Code-Libraries
-(Specific libraries can be added here.)
+- [arduino-modulino-mpy](https://github.com/arduino/arduino-modulino-mpy)
+- [micropython-i2c-lcd](https://github.com/brainelectronics/micropython-i2c-lcd/)
 
-#### Code structure
-Main.py
-Games.py
-....????
+#### Code structure  
+<img width="921" height="461" alt="image" src="https://github.com/user-attachments/assets/b7103f5a-0551-4d7b-a830-a01696e64cdf" />
 
 
 
@@ -88,11 +83,14 @@ Games.py
 
 ### Wiring
 The Modulino modules are connected via daisy-chaining.
-(A wiring diagram can be added here.)
+<img width="1071" height="328" alt="image" src="https://github.com/user-attachments/assets/967cc28f-8a67-4829-bc6c-2cf2bcff96b2" />
 
 ### Housing
 The housing is a 3D-printed enclosure. We opted for 3D printing as it provided the most practical and customizable solution for our prototype.
-(STL files can be linked here.)
+<img width="1031" height="627" alt="image" src="https://github.com/user-attachments/assets/8ef0601b-9db7-4b22-a9bb-134dbf643c84" />
+<img width="856" height="897" alt="image" src="https://github.com/user-attachments/assets/d4561c5b-d1ef-4acc-84fb-cef0c0b59ac2" />
+<img width="1336" height="1124" alt="image" src="https://github.com/user-attachments/assets/cace1330-773a-44af-84e6-826c44a515e0" />
+
 
 
 
@@ -106,11 +104,6 @@ The housing is a 3D-printed enclosure. We opted for 3D printing as it provided t
 ### Display remains blank
 - Is the I2C address correct?
 - Is the display connected to the correct Grove Pad port?
-
-### NeoPixel ring does not light up 
-- Check data lines (DIN/DOUT)
-- Ensure neopixel is initialized correctly
-- Some rings require 5V signal levels — a level shifter may be necessary
 
 ### A Modulino module is not detected
 - Verify the daisy chain connection

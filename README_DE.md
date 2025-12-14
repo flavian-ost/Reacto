@@ -103,11 +103,6 @@ Das Gehäuse ist ein 3D-gedrucktes Case. Wir haben uns für einene 3D-Druck ents
 - I2C-Adresse korrekt?  
 - Display richtig am Grove Pad angeschlossen?  
 
-### NeoPixel Ring leuchtet nicht  
-- Datenverbindung (DIN/DOUT) prüfen  
-- `neopixel` im Code korrekt initialisiert?  
-- Manche Rings benötigen 5V-Level – ggf. Level-Shifter nutzen
-
 ### Ein Modulino wird nicht erkannt  
 - Daisy-Chain richtig gesteckt?  
 - Richtiger Port im Code?  
