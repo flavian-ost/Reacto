@@ -94,27 +94,6 @@ The housing is a 3D-printed enclosure. We opted for 3D printing as it provided t
 ## Video
 https://ostch-my.sharepoint.com/:f:/r/personal/cristina_hagmann_ost_ch/Documents/03_Informatikseminar/Semester%201/Gruppenprojekt/Projektvideo?csf=1&web=1&e=Dj1fnU
 
-## ❓Troubleshooting / FAQ
-
-### REACTO does not power on 
-- Is the battery charged?
-- Check the connection between the ESP32 and the power module
-- Verify the button wiring
-
-### Display remains blank
-- Is the I2C address correct?
-- Is the display connected to the correct Grove Pad port?
-
-### A Modulino module is not detected
-- Verify the daisy chain connection
-- Check that the correct port is defined in the code
-- Test the module individually
-
-### Code upload fails
-- Is MicroPython installed on the board?
-- Correct COM port/device selected in the IDE?
-- Resetting the board during upload may help
-
 
 ## 📄 License
 This project is released under the **MIT License**.
