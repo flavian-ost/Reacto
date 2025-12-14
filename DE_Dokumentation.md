@@ -70,7 +70,6 @@ REACTO besteht aus drei Hauptkomponenten
 
 ### Software
 * MicroPython
-* ???
 
 ### Code-Bibliotheken
 *(Hier können spezifische Libraries ergänzt werden.)*

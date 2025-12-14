@@ -13,14 +13,10 @@ from neopixel import NeoPixel
 from machine import I2C, Pin
 
 ##### INSTANTIATE DEVICES #####
-Button = Pin("A0", Pin.IN)
-Buttons = ModulinoButtons()
 Buzzer = ModulinoBuzzer()
 Display = LCD(0x27, 16, 2, i2c=I2C(1))
 Knob = ModulinoKnob()
 Movement = ModulinoMovement()
-Pixels = ModulinoPixels()
-Ring = NeoPixel(Pin("A2"), 16)
 
 ##### SETUP DEVICES #####
 Display.begin()
@@ -70,8 +66,8 @@ def buzzer_play_melody():
 
 
 def welcome():
-    buzzer_play_melody()
     display_message("  Welcome to   ", "==== REACTO ====")
+    buzzer_play_melody()
 
 
 def player_selection():
@@ -115,16 +111,15 @@ def hide_and_seek():
     wait_for_continue()
     display_message("Player 1 ready?", "Press to proceed")
     wait_for_continue()
-    for time in range(9):
+    for time in range(10):
         display_message("Hide REACTO!", f"Time left: {str(9-time)}")
         sleep(1)
     buzzer_play_melody()
     display_message("Waiting...", "Press when found")
     wait_for_continue()
-    display_message("Waiting...", "Press when found")
     display_message("Player 2 ready?", "Press to proceed")
     wait_for_continue()
-    for time in range(9):
+    for time in range(10):
         display_message("Hide REACTO!", f"Time left: {str(9-time)}")
         sleep(1)
     buzzer_play_melody()
@@ -137,27 +132,35 @@ def hide_and_seek():
 def speed_it_up():
     global player1_score
     global player2_score
+    values1 = []
+    values2 = []
     display_message("Speed it up", "Press to start")
     wait_for_continue()
     display_message("Player 1 ready?", "Press to proceed")
     wait_for_continue()
     display_message("Shake as hard", "as you can!")
-    for time in range(1000):
-        player1_score += sqrt(
-            Movement.accelerometer.x**2
-            + Movement.accelerometer.y**2
-            + Movement.accelerometer.z**2
+    for _ in range(1000):
+        values1.append(
+            sqrt(
+                Movement.accelerometer.x**2
+                + Movement.accelerometer.y**2
+                + Movement.accelerometer.z**2
+            )
         )
+        player1_score += max(values1)
         sleep(0.01)
     display_message("Player 2 ready?", "Press to proceed")
     wait_for_continue()
     display_message("Shake as hard", "as you can!")
-    for time in range(1000):
-        player2_score += sqrt(
-            Movement.accelerometer.x**2
-            + Movement.accelerometer.y**2
-            + Movement.accelerometer.z**2
+    for _ in range(1000):
+        values2.append(
+            sqrt(
+                Movement.accelerometer.x**2
+                + Movement.accelerometer.y**2
+                + Movement.accelerometer.z**2
+            )
         )
+        player2_score += max(values2)
         sleep(0.01)
     display_message("Game finished!", "Press to proceed")
     wait_for_continue()
@@ -214,6 +217,7 @@ def results():
 
 def main():
     welcome()
+    sleep(5)
     # player_selection()
     hide_and_seek()
     speed_it_up()
