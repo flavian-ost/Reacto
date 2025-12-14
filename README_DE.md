@@ -1,7 +1,11 @@
 # 🎮 REACTO
 REACTO ist eine kompakte mobile Spielkonsole, mit der man allein oder im Multiplayer-Modus durch vielseitige Steuerungen Minispiele spielen kann – perfekt, um überall Spass zu haben und das Gehirn zu trainieren.
 
-<img width="430" height="289" alt="Reacto" src="https://github.com/user-attachments/assets/a9a0d931-f5b3-475a-a81e-e3a1c7fe9652" />
+
+
+https://github.com/user-attachments/assets/cd0282aa-a8de-484a-b2d8-cbeba6ae0ac2
+
+
 
 ## 🧩 Konzept
 Dieses Projekt entstand im Rahmen des Moduls Physical Prototyping und wurde innerhalb von sieben Wochen umgesetzt.
