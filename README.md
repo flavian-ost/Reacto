@@ -28,9 +28,8 @@ Additionally, building our own console gave us the opportunity to merge hardware
 
 ## 🕹️ How to play
 1. Turn on REACTO using the side button
-2. Select the number of players 
-3. Choose a game
-4. Start playing
+2. Choose a game
+3. Start playing
 
 
 ### Available Games
@@ -38,9 +37,6 @@ Additionally, building our own console gave us the opportunity to merge hardware
 - ⏱️ Time Guess – Estimate when a given time interval has elapsed.
 - 🔍 Hide and Seek – Find REACTO!
 - ⚡ Speed it up – Spin REACTO as fast as possible.
-- 🔥 Hot Potato Mode – Pass REACTO before the timer expires.
-- 🔶 Pattern Match – Memorize random LED patterns and reproduce them accurately.
-- 🎤 Action Commands – React to on-screen commands such as “Twist it!” or “Shake it!”.
 
 ### Interactions
 - 👉 Push it
